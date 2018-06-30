@@ -1,0 +1,75 @@
+body{
+    background-color: #f9fbff;
+}
+div.header{
+    height:50px;
+    background-color:rgb(54,54,59);
+    width:100%;
+    line-height:50px;
+    position:fixed;
+    top:0;
+    z-index:1000;
+    text-align: center;
+    font-size:16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+div.header i{
+    position: absolute;
+    top: 0;
+    margin-left: 5%;
+    left: 0;
+    font-size:16px;
+    color:white;
+    line-height:50px;
+}
+div.header span{
+    /*word-spacing: 10px;*/
+    letter-spacing: 2px;
+    margin-left:-1px;
+}
+div.my-publish-one{
+    margin: 15px auto 0;
+    width: 94%;
+    padding: 15px 3%;
+    background-color: white;
+    /*padding: 15px;*/
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+div.my-publish-one div.top{
+
+}
+div.my-publish-one div.top div.img{
+    width:80px;
+    max-height:80px;
+    min-height:80px;
+    display:inline-block;
+    text-align: center;
+    vertical-align:middle;
+
+}
+div.my-publish-one div.top div.img img{
+    max-width:80px;
+    min-width:70px;
+    max-height:80px;
+    /*vertical-align:middle;*/
+}
+div.my-publish-one div.top span.title{
+    position:absolute;
+    left:103px;
+    font-weight:bold;
+    font-size:15px;
+    max-width:66%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+div.my-publish-one div.bottom{
+    margin-top: 15px;
+    padding: 10px 10px 0;
+    border-top: 1px solid #f2f2f2;
+    background-color: white;
+
+}

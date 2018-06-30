@@ -1,0 +1,17 @@
+#root div.my-focus-list{
+    margin: 15px auto 0;
+    width: 94%;
+    padding: 15px 12px;
+    background-color: white;
+    position: relative;
+}
+#root div.my-focus-list div.my-focus-details{
+    /*position: relative;*/
+}
+#root div.my-focus-list div.my-focus-details div.avatar{
+    /*position: relative;*/
+    /*display: inline-block;*/
+}
+#root div.my-focus-list div.my-focus-details div.avatar img{
+
+}

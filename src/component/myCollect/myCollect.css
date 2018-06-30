@@ -1,0 +1,64 @@
+div.my-collect-details{
+    margin: 15px auto 0;
+    width: 94%;
+    padding: 15px 12px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+div.my-collect-details div.img{
+    width: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+div.my-collect-details div.img img{
+    max-width: 80px;
+    min-width: 70px;
+    max-height: 80px;
+}
+div.my-collect-details span.title{
+    position:absolute;
+    top:15px;
+    left:100px;
+    font-weight:bold;
+    font-size:15px;
+    max-width: 66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.my-collect-details span.price{
+    position:absolute;
+    top:35px;
+    left:98px;
+    font-weight:bold;
+    font-size:15px;
+    color: red;
+}
+div.my-collect-details span.classification{
+    position:absolute;
+    top:55px;
+    left:100px;
+    font-size:15px;
+}
+div.my-collect-details span.clickNum{
+    position:absolute;
+    top:75px;
+    left:100px;
+    font-size:12px;
+    color: #8a8a8a;
+}
+div.my-collect-details div.description{
+    border-top: 1px solid #f2f2f2;
+    padding-top: 10px;
+    max-height: 95px;
+    margin: 0 auto;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

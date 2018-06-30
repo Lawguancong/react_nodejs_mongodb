@@ -1,0 +1,61 @@
+div.row{
+    width: 100%;
+    padding: 0 5%;
+    /*border-bottom: 1px solid gainsboro;*/
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+div.row div.left{
+    display:inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.row div.right{
+    display:inline-block;
+    font-size: 16px;
+    float: right;
+}
+div.signature{
+    display:inline-block;
+    font-size: 14px;
+    float: right;
+    max-width: 70%;
+    height: 50px;
+}
+div.signature:before{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+div.signature span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+button.updatePassword{
+    background-color: #638ef5;
+    border: none;
+    color: white;
+    -webkit-appearance: button;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 40px;
+}
+
+button.logout{
+    background-color: #f5222d;
+    border: none;
+    color: white;
+    -webkit-appearance: button;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 40px;
+}

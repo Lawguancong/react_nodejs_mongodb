@@ -1,0 +1,118 @@
+
+div.stick-header{
+    height: 50px;
+    position: fixed;
+    background-color: rgb(54,54,59);
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: white;
+    line-height: 50px;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+div.stick-header div.receiveNickName{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: -1px;
+    line-height: 50px;
+
+}
+div.stick-header div.go-back{
+    position: absolute;
+    font-size: 16px;
+    margin-left: 5%;
+    color: white;
+    line-height: 50px;
+}
+
+#chat-page{
+    /*padding-top: 60px;*/
+    padding-bottom: 50px;
+
+}
+
+#chat-page div.chat-list{
+    padding: 60px 5% 0;
+}
+
+#chat-page div.chat-list > div{
+    margin-top: 10px;
+}
+#chat-page div.chat-list div.loading-more{
+    /*height: 28px;*/
+    text-align: center;
+    margin: 0;
+    color: #b6b6b6;
+    /*visibility: visible;//hidden*/
+}
+#chat-page div.chat-list div.loading-more > span{
+    min-height: 29px;
+}
+#chat-page div.chat-list div.loading-more span.loading-title{
+    /*font-size: 25px;*/
+
+}
+#chat-page div.chat-list div.loading-more div.loading-spinning{
+
+}
+#chat-page div.chat-list img.avatar{
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+#chat-page div.chat-list div.chat{
+    display: inline-block;
+    max-width: 70%;
+    min-width: 28px;
+    word-wrap:break-word;
+    /*word-break:break-all;*/
+    background-color: #95f779;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+#chat-page div.chat-list div.chat div.arrow-right {
+    position: absolute;
+    right: -6px;
+    top: 10px;
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #95f779;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);*/
+}
+#chat-page div.chat-list div.chat div.arrow-left {
+    position: absolute;
+    left: -6px;
+    top: 10px;
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right:10px solid #95f779;
+}
+#chat-page div.chat-list div.chat span{
+    /*vertical-align: middle;*/
+}
+#chat-page div.chat-list div.chat-me{
+    text-align: right;
+}
+
+
+div.stick-footer{
+    z-index:10;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+

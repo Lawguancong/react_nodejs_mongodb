@@ -1,0 +1,16 @@
+#root div.aa{
+    /*width:48%;*/
+    /*margin:0 1%;*/
+    /*display: inline-block;*/
+
+}
+div.bb{
+    /*height: 180px;*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    /*text-align: center;*/
+}
+#root div.aa img {
+    /*width: 50px;*/
+    /*height: 50px;*/
+}

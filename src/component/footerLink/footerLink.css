@@ -1,0 +1,48 @@
+div.footer{
+    text-align: center;
+    border-top: 1PX solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0 0;
+    z-index: 10000;
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+div.footer a{
+    display: inline-block;
+    width: 20%;
+    /*color: transparent;*/
+    color: gray;
+}
+
+div.footer a span.title{
+    font-size: 8pt;
+    color: rgb(148, 148, 148);
+}
+div.register{
+    /*display: none;*/
+    /*visibility: hidden;*/
+    /*visibility: visible;*/
+}
+button.register{
+    border-color: #1890ff;
+}
+button.register span{
+    color: #1890ff;
+}
+button.login{
+    border-color: #1890ff;
+}
+button.login span{
+    color: #1890ff;
+}
+div.hr{
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-bottom: 20px;
+}
+#root .ant-badge-count{
+    /*-webkit-transform: none;*/
+}
