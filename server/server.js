@@ -752,8 +752,8 @@ app.post('/getCaptcha_6',function (req, res) {
 
     //阿里大于
     const _res = res
-    const accessKeyId = 'LTAIiMz2IUTvQF0p'
-    const secretAccessKey = 'kwNVtztBvLQeO9W4NqjY6M3TGN6Rcy'
+    const accessKeyId = '*************'
+    const secretAccessKey = '*************'
     //初始化sms_client
     let smsClient = new SMSClient({accessKeyId, secretAccessKey})
     //发送短信
