@@ -52,7 +52,7 @@
     "react": "^16.2.0",
     "react-avatar-editor": "^10.3.0",
     "react-core-image-upload": "^2.2.3",
-    "react-dev-utils": "^5.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.2.0",
     "react-qiniu": "^1.5.0",
     "react-redux": "^5.0.7",
